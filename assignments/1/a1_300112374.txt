@@ -1,0 +1,175 @@
+Python 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+ RESTART: /Users/patrickloranger/Documents/Fall Term 2019/ITI 1120/assignments/a1_300112374.py 
+>>> # testing question 1
+>>> 
+>>> pythagorean_pair(2,2)
+False
+>>> pythagorean_pair(6,8)
+True
+>>> pythagorean_pair(5,3)
+False
+>>> pythagorean_pair(3,4)
+True
+>>> 
+>>> # testing question 2
+>>> 
+>>> mh2kh(5)
+8.0467
+>>> mh2kh(10)
+16.0934
+>>> mh2kh(110.4)
+177.67113600000002
+>>> 
+>>> # testing question 3
+>>> 
+>>> in_out(0,0,2.5)
+Enter a number for the x coordinate of a query point: 0
+Enter a number for the y coordinate of a query point: 1.2
+True
+>>> in_out(2.5,1,1)
+Enter a number for the x coordinate of a query point: -1
+Enter a number for the y coordinate of a query point: 1.5
+False
+>>> 
+>>> # testing question 4
+>>> 
+>>> safe(93)
+False
+>>> safe(99)
+False
+>>> safe(82)
+True
+>>> safe(7)
+True
+>>> safe(9)
+False
+>>> 
+>>> # testing question 5
+>>> 
+>>> quote_maker("Everything should be made as simple as possible but not simpler.", "Albert Einstein", 1933)
+'In 1933, a person called Albert Einstein said: "Everything should be made as simple as possible but not simpler."'
+>>> quote_maker("I would never die for my beliefs because I might be wrong.", "Bertrand Russell", 1951)
+'In 1951, a person called Bertrand Russell said: "I would never die for my beliefs because I might be wrong."'
+>>> quote_maker("Hopefully this is right.", "Patrick Loranger", 2019)
+'In 2019, a person called Patrick Loranger said: "Hopefully this is right."'
+>>> 
+>>> # testing question 6
+>>> 
+>>> quote_displayer()
+Enter any quote: The best lack all conviction while the worst are full of passionate intensity.
+Who said that? Bertrand Russell
+In what year did he or she say that? 1960
+In 1960, a person called Bertrand Russell said: "The best lack all conviction while the worst are full of passionate intensity."
+>>> 
+>>> # testing question 7
+>>> 
+>>> rps_winner()
+What is player 1's choice? 
+Type one of the following options: rock, paper, scissors: rock
+What is player 2's choice? 
+Type one of the following options: rock, paper, scissors: rock
+Player 1 wins. That is False
+It is a tie. That is not True
+>>> rps_winner()
+What is player 1's choice? 
+Type one of the following options: rock, paper, scissors: paper
+What is player 2's choice? 
+Type one of the following options: rock, paper, scissors: scissors
+Player 1 wins. That is False
+It is a tie. That is not False
+>>> rps_winner()
+What is player 1's choice? 
+Type one of the following options: rock, paper, scissors: paper
+What is player 2's choice? 
+Type one of the following options: rock, paper, scissors: rock
+Player 1 wins. That is True
+It is a tie. That is not False
+>>> 
+>>> # testing question 8
+>>> 
+>>> fun(7)
+0.25
+>>> fun(20)
+0.3404319590043982
+>>> fun(33)
+0.3890756251918218
+>>> 
+>>> # testing question 9
+>>> 
+>>> ascii_name_plaque("Patrick")
+*********************
+*                   *
+*    __Patrick__    *
+*                   *
+*********************
+>>> ascii_name_plaque("Loranger")
+**********************
+*                    *
+*    __Loranger__    *
+*                    *
+**********************
+>>> ascii_name_plaque("Seven of Nine")
+***************************
+*                         *
+*    __Seven of Nine__    *
+*                         *
+***************************
+>>> 
+>>> # testing question 10
+>>> 
+>>> draw_train()
+>>> 
+>>> # testing question 11
+>>> 
+>>> alogical(5.4)
+3
+>>> alogical(4)
+3
+>>> alogical(1000)
+10
+>>> alogical(4200231)
+23
+>>>
+>>> # testing question 12
+>>> 
+>>> time_format(8,0)
+"8 o' clock"
+>>> time_format(8,59)
+"55 minutes past 8 o' clock"
+>>> time_format(8,8)
+"55 minutes to 9 o' clock"
+>>> time_format(8,32)
+"half past 8 o' clock"
+>>> time_format(11,59)
+"55 minutes past 11 o' clock"
+>>> time_format(11,1)
+"11 o' clock"
+>>> time_format(11,45)
+"45 minutes past 11 o' clock"
+>>> time_format(11,15)
+"45 minutes to 12 o' clock"
+>>>
+>>> # testing question 13
+>>>
+>>> cad_cashier(10.58,11)
+0.4
+>>> cad_cashier(98.87,100)
+1.15
+>>> cad_cashier(10.58,15)
+4.4
+>>> cad_cashier(10.50,15)
+4.5
+>>> 
+>>> # testing question 14
+>>> 
+>>> min_CAD_coins(10.58,11)
+(0, 0, 1, 1, 1)
+>>> min_CAD_coins(10.54,15)
+(2, 0, 1, 2, 0)
+>>> min_CAD_coins(3, 20)
+(8, 1, 0, 0, 0)
+>>> min_CAD_coins(456, 600)
+(72, 0, 0, 0, 0)

@@ -1,0 +1,122 @@
+# Course: ITI 1120
+# Assignment number: a2 part 2
+# Loranger, Patrick
+# Student number: 300112374
+# Year: 2019
+
+############################################
+# Text File for part 2 : 
+############################################
+
+# testing question 2.1
+>>> min_enclosing_rectangle(1,1,1)
+(0, 0)
+>>> min_enclosing_rectangle(4.5,10,2)
+(5.5, -2.5)
+>>> min_enclosing_rectangle(-1,1,1)
+>>> min_enclosing_rectangle(10,20,30)
+(10, 20)
+>>>
+
+# testing question 2.2
+>>> series_sum()
+Please enter a non-negative integer: 0
+1000
+>>> series_sum()
+Please enter a non-negative integer: 5
+1001.463611111111
+>>> series_sum()
+Please enter a non-negative integer: 12
+1001.564976638421
+>>> series_sum()
+Please enter a non-negative integer: 10000000
+1001.6449338629011
+>>> 
+
+# testing question 2.3
+>>> pell(0)
+0
+>>> pell(1)
+1
+>>> pell(3)
+5
+>>> pell(-45)
+>>> pell(25)
+1311738121
+>>> 
+
+# testing question 2.4
+>>> countMembers("\\")
+1
+>>> countMembers("2\'")
+1
+>>> countMembers("Hello, my name is Patrick Loranger! Nice to meet you!")
+17
+>>> countMembers("one, Two")
+3
+>>> 
+
+# testing question 2.5
+>>> casual_number("251")
+251
+>>> casual_number("1,251")
+1251
+>>> casual_number("-1,251")
+-1251
+>>> casual_number("  ")
+>>> casual_number("999,999,999,999")
+999999999999
+
+# testing question 2.6
+>>> alienNumbers("a!ya!U!NaU")
+1095
+>>> alienNumbers("aaaUUU")
+129
+>>> alienNumbers("")
+0
+>>> alienNumbers("!!!!!!!")
+847
+>>> 
+
+# testing question 2.7
+>>> alienNumbersAgain("a!ya!U!NaU")
+1095
+>>> alienNumbersAgain("aaaUUU")
+129
+>>> alienNumbersAgain("")
+0
+>>> alienNumbersAgain("!!!!!!!")
+847
+>>> 
+
+# testing question 2.8
+>>> encrypt("Hello, world")
+'dHlerlolwo ,'
+>>> encrypt("This message is for you.")
+'.Tuhoiys  rmoefs ssaig e'
+>>> encrypt("123")
+'312'
+>>> encrypt("Secret Message")
+'eSgeacsrseetM '
+>>>
+
+# testing question 2.9
+>>> oPify("aa")
+'aopa'
+>>> oPify("aB")
+'aoPB'
+>>> oPify("ooo")
+'oopoopo'
+>>> oPify("ax1")
+'aopx'
+>>> oPify("x")
+'x'
+>>> oPify("aBCdef22x")
+'aoPBOPCOpdopeopfx'
+>>> oPify("abcdef22")
+'aopbopcopdopeopf'
+>>> 
+
+# testing question 2.10
+>>> nonrepetitive("10")
+>>> 

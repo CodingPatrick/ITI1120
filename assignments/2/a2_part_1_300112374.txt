@@ -1,0 +1,84 @@
+# Course: ITI 1120
+# Assignment number: a2 part 1
+# Loranger, Patrick
+# Student number: 300112374
+# Year: 2019
+
+############################################
+# Text File for part 1 : 
+############################################
+
+****************************************************
+*                                                  *
+*    __Welcome to my increasing-splits tester__    *
+*                                                  *
+****************************************************
+
+What is your name? Patrick
+
+***************************************************************
+*                                                             *
+*    __Patrick, welcome to my increasing-splits tester. __    *
+*                                                             *
+***************************************************************
+
+Patrick, would you like to test if a number admits an increasing-split of give size?    sure
+
+Please enter yes or no. Try again.
+
+Patrick, would you like to test if a number admits an increasing-split of give size?    YeP
+
+Please enter yes or no. Try again.
+
+Patrick, would you like to test if a number admits an increasing-split of give size?    YEs
+
+Good Choice!!
+
+Enter a positive integer: 1234
+
+Input the split. The split has to divide the length of 1234 i.e. 4
+2
+12, 34
+
+The sequence is increasing.
+
+Patrick, would you like to test if a number admits an increasing-split of give size?   YES
+
+Good Choice!!
+
+Enter a positive integer: -12
+
+The input has to be a positive integer. Try again.
+
+Patrick, would you like to test if a number admits an increasing-split of give size? okay
+
+Please enter yes or no. Try again.
+
+Patrick, would you like to test if a number admits an increasing-split of give size? yes
+
+Good Choice!!
+
+Enter a positive integer: 123456
+
+Input the split. The split has to divide the length of 123456 i.e. 6
+3
+123, 456
+
+The sequence is increasing.
+
+Patrick, would you like to test if a number admits an increasing-split of give size?  no more
+
+Please enter yes or no. Try again.
+
+Patrick, would you like to test if a number admits an increasing-split of give size? nope
+
+Please enter yes or no. Try again.
+
+Patrick, would you like to test if a number admits an increasing-split of give size? no
+
+******************************
+*                            *
+*    __Goodbye Patrick!__    *
+*                            *
+******************************
+>>>
